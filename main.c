@@ -5,6 +5,8 @@
 #include "Dataset.h"
 #include "ImageClassifier.h"
 
+// CECI EST UN TEST
+
 int main(int argc, char *argv[])
 {
     int iarg = 1;
