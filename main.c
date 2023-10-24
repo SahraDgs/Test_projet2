@@ -6,7 +6,7 @@
 #include "ImageClassifier.h"
 
 // CECI EST UN TEST
-//résolution issue
+//résolution issue test 2
 
 int main(int argc, char *argv[])
 {
