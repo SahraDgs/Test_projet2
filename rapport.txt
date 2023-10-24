@@ -1,0 +1,72 @@
+Ne modifiez pas ce fichier (même cette ligne) sauf pour y ajouter vos réponses
+aux endroits marqués de "..."
+
+Etudiant 1:
+Matricule: ...
+Nom: ...
+Prénom: ...
+Contribution au projet: ... %
+
+Etudiant 2: (laissez vide si vous avez fait le projet seul)
+Matricule: ...
+Nom: ...
+Prénom: ...
+Contribution au projet: ... %
+
+Analyse de complexité
+=====================
+
+Reportez ci-dessous les complexités dans le pire cas des fonctions suivantes en
+fonction des paramètres mentionnés.
+
+imgDeskew: O(...)
+(en fonction de la hauteur h et de la largeur w de l'image)
+
+icTrain: O(...)
+(en fonction du nombre d'époques e, du nombre d'images n et de leur hauteur h et largeur w)
+
+icShowErrors: O(...)
+(en fonction du nombre d'images de test n et du nombre de classes c)
+
+Expériences
+===========
+
+Réalisez les expériences ci-dessous et rapportez le taux d'erreurs obtenus.
+
+./classifier Data/mnist_images_train.csv Data/mnist_label_train.csv Data/mnist_images_test.csv Data/mnist_label_test.csv Data/mnist_labelnames.csv
+
+Avec alignement:
+Taux d'erreurs sur le training set: ...%
+Taux d'erreurs sur le test set: ...%
+
+Sans alignement:
+Taux d'erreurs sur le training set: ...%
+Taux d'erreurs sur le test set: ...%
+
+Quelle est l'erreur la plus fréquente AVEC alignement ?
+Vraie classe: ...
+Classe prédite: ...
+Nombre d'erreurs de ce type: ...
+
+./classifier Data/fruits_images_train.csv Data/fruits_label_train.csv Data/fruits_images_test.csv Data/fruits_label_test.csv Data/fruits_labelnames.csv
+
+Avec alignement:
+Taux d'erreurs sur le training set: ...%
+Taux d'erreurs sur le test set: ...%
+
+Sans alignement:
+Taux d'erreurs sur le training set: ...%
+Taux d'erreurs sur le test set: ...%
+
+Quelle est l'erreur la plus fréquente SANS alignement ?
+Vraie classe: ...
+Classe prédite: ...
+Nombre d'erreurs de ce type: ...
+
+Nombre d'époques pour votre extracteur
+======================================
+
+Reportez ci-dessous le nombre d'époques que vous souhaitez qu'on utilise
+pour tester votre extracteur de caractéristiques (maximum 10).
+
+- Nombre d'époques: ...
